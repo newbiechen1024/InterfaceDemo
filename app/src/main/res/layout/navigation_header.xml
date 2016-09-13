@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:paddingTop="30dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <ImageView
+        android:id="@+id/header_iv_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/circle"/>
+
+    <ImageView
+        android:id="@+id/header_iv_mode"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/circle"/>
+
+    <ImageView
+        android:id="@+id/header_iv_msg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@+id/header_iv_mode"
+        android:layout_marginRight="15dp"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/circle"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/header_iv_icon"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:id="@+id/header_tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Name"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正式会员"
+            android:textSize="10sp"
+            android:background="@drawable/oval"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="硬币：252"/>
+    </LinearLayout>
+</RelativeLayout>

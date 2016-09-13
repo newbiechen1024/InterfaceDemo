@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/left_drawer_homepage"
+            android:title="首页"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/left_drawer_offline_download"
+            android:title="首页"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/left_drawer_collection"
+            android:title="我的收藏"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/left_drawer_histories"
+            android:title="历史记录"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/left_drawer_attention_people"
+            android:title="关注的人"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/left_drawer_my_purse"
+            android:title="我的钱包"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/left_drawer_theme_choose"
+            android:title="主题选择"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/left_drawer_app_recommend"
+            android:title="应用推荐"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/left_drawer_setting"
+            android:title="设置与帮助"
+            android:icon="@drawable/drawer_menu_homepage"
+            app:showAsAction="always"/>
+    </group>
+</menu>

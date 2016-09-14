@@ -7,4 +7,5 @@
     <color name="white">#fff</color>
     <color name="black">#000</color>
     <color name="pink">#FF4081</color>
+    <color name="translucent_white">#99FFFFFF</color>
 </resources>

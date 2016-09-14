@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single"
+        android:id="@+id/first_group">
         <item
             android:id="@+id/left_drawer_homepage"
             android:title="首页"
-            android:icon="@drawable/drawer_menu_homepage"
+            android:icon="@mipmap/homepage_actived"
             app:showAsAction="always"/>
         <item
             android:id="@+id/left_drawer_offline_download"
-            android:title="首页"
-            android:icon="@drawable/drawer_menu_homepage"
+            android:title="离线缓存"
+            android:icon="@mipmap/icon_download"
             app:showAsAction="always"/>
     </group>
-    <group android:checkableBehavior="single">
+    <group android:id="@+id/second_group">
         <item
             android:id="@+id/left_drawer_collection"
             android:title="我的收藏"
-            android:icon="@drawable/drawer_menu_homepage"
+            android:icon="@mipmap/icon_collection"
             app:showAsAction="always"/>
         <item
             android:id="@+id/left_drawer_histories"
@@ -36,11 +36,13 @@
             android:icon="@drawable/drawer_menu_homepage"
             app:showAsAction="always"/>
     </group>
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/third_behavior"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/left_drawer_theme_choose"
             android:title="主题选择"
-            android:icon="@drawable/drawer_menu_homepage"
+            android:icon="@mipmap/homepage_actived"
             app:showAsAction="always"/>
         <item
             android:id="@+id/left_drawer_app_recommend"

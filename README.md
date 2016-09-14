@@ -13,5 +13,5 @@
 ![](https://github.com/newbiechen1024/InterfaceDemo/blob/master/show_effect/interface_show.gif)
 
 ##知识点
-- NavigationView的使用及样式修改：[](http://jaeger.itscoder.com/android/2016/02/16/use-navigation-view-detail.html)
-- TabLayotu的样式修改：[](http://www.jianshu.com/p/2b2bb6be83a8)
+- [NavigationView的使用及样式修改](http://jaeger.itscoder.com/android/2016/02/16/use-navigation-view-detail.html)
+- [TabLayotu的样式修改](http://www.jianshu.com/p/2b2bb6be83a8)
